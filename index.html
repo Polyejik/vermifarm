@@ -24,7 +24,7 @@
     --bevel:inset 0 1px 0 rgba(255,255,255,.22);
   }
   *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
+  html{scroll-behavior:smooth; scroll-padding-top:104px}
   body{
     margin:0; color:var(--ink);
     background:
@@ -186,7 +186,7 @@
     background:var(--warn-line)}
 
   .about{background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
-  .about-grid{display:grid; gap:38px; align-items:center}
+  .about-grid{display:grid; gap:38px; align-items:start}
   @media(min-width:880px){ .about-grid{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); gap:56px} }
   .portrait{border-radius:var(--r); overflow:hidden; box-shadow:var(--shadow);
     border:1px solid var(--line); background:#F2EFE8}
@@ -638,7 +638,7 @@
       <span class="eyebrow">Начало дела</span>
       <h2>Расскажите мне о своём хозяйстве</h2>
       <p>Напишите, где вы живёте и какой есть участок или помещение. Сколько времени можете выделить, на что рассчитываете? Отвечу в течение трёх дней. Если дело вам не подходит, честно объясню почему. За этот первый разбор платить не нужно.</p>
-      <a class="mail" href="mailto:peter_k53@mail.ru?subject=%D0%92%D0%B5%D1%80%D0%BC%D0%B8%D1%84%D0%B5%D1%80%D0%BC%D0%B0%20%E2%80%94%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E">peter_k53@mail.ru</a>
+      <a class="mail" href="#" data-m="peter_k53|mail.ru" data-s="Вермиферма — запрос на консультацию"></a>
       <div class="hintmargin">Ответ в течение 3 дней · не больше 5 человек в месяц</div>
     </div>
   </div>
@@ -648,7 +648,7 @@
   <div class="wrap">
     <div class="frow">
       <div class="brand"><i><svg class="i" viewBox="0 0 24 24"><path d="M12 20.5v-7.5"/><path d="M12 13c0-3.3 2.7-6 6-6 0 3.3-2.7 6-6 6z"/><path d="M12 15.2c0-2.8-2.2-5-5-5 0 2.8 2.2 5 5 5z"/></svg></i> Вермиферма · П. М. Кутузов</div>
-      <div><a href="mailto:peter_k53@mail.ru">peter_k53@mail.ru</a></div>
+      <div><a href="#" data-m="peter_k53|mail.ru"></a></div>
     </div>
 
     <div class="legal">
@@ -669,7 +669,7 @@
       обращение и не передаётся никому.</p>
       <p>Исполнитель: Кутузов Пётр Михайлович, плательщик налога на профессиональный доход
       (самозанятый). ИНН указывается в чеке, который формируется при расчёте.
-      Связь: <a href="mailto:peter_k53@mail.ru">peter_k53@mail.ru</a></p>
+      Связь: <a href="#" data-m="peter_k53|mail.ru"></a></p>
       <p>© 2026 Кутузов П. М. Все права защищены.</p>
     </div>
   </div>
@@ -680,5 +680,24 @@
   <a class="btn" href="#start">Написать</a>
 </div>
 
+
+<script>
+/* Адрес собирается в браузере, поэтому в исходном коде страницы его нет
+   и сборщикам спама взять его неоткуда. */
+(function () {
+  var dog = String.fromCharCode(64);
+  var nodes = document.querySelectorAll('[data-m]');
+  for (var i = 0; i < nodes.length; i++) {
+    var el = nodes[i];
+    var parts = el.getAttribute('data-m').split('|');
+    var addr = parts[0] + dog + parts[1];
+    var subject = el.getAttribute('data-s');
+    if (el.tagName === 'A') {
+      el.setAttribute('href', 'mailto:' + addr + (subject ? '?subject=' + encodeURIComponent(subject) : ''));
+    }
+    el.textContent = addr;
+  }
+})();
+</script>
 </body>
 </html>

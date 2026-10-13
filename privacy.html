@@ -79,7 +79,7 @@
 
   <h2>Сколько данные хранятся</h2>
   <p>Пока мы общаемся и пока это нужно для нашей договорённости. Попросите удалить — удалю
-  переписку и все связанные с ней сведения. Напишите на peter_k53@mail.ru, отвечу
+  переписку и все связанные с ней сведения. Напишите на <span data-m="peter_k53|mail.ru"></span>, отвечу
   в течение 10 рабочих дней.</p>
 
   <h2>Ваши права</h2>
@@ -90,11 +90,11 @@
     <li>отозвать согласие на обработку;</li>
     <li>обратиться в Роскомнадзор или в суд, если считаете, что ваши права нарушены.</li>
   </ul>
-  <p>Для любого из этих действий достаточно письма на peter_k53@mail.ru.</p>
+  <p>Для любого из этих действий достаточно письма на <span data-m="peter_k53|mail.ru"></span>.</p>
 
   <h2>Кто отвечает за данные</h2>
   <p>Кутузов Пётр Михайлович, плательщик налога на профессиональный доход (самозанятый).
-  Электронная почта: peter_k53@mail.ru.</p>
+  Электронная почта: <span data-m="peter_k53|mail.ru"></span>.</p>
 
   <h2>Если что-то изменится</h2>
   <p>Если появится форма обратной связи или счётчик посещаемости, я обновлю эту страницу
@@ -104,5 +104,24 @@
 <footer><div class="wrap">
   <a href="index.html">Вернуться на сайт</a> · <a href="oferta.html">Публичная оферта</a>
 </div></footer>
+
+<script>
+/* Адрес собирается в браузере, поэтому в исходном коде страницы его нет
+   и сборщикам спама взять его неоткуда. */
+(function () {
+  var dog = String.fromCharCode(64);
+  var nodes = document.querySelectorAll('[data-m]');
+  for (var i = 0; i < nodes.length; i++) {
+    var el = nodes[i];
+    var parts = el.getAttribute('data-m').split('|');
+    var addr = parts[0] + dog + parts[1];
+    var subject = el.getAttribute('data-s');
+    if (el.tagName === 'A') {
+      el.setAttribute('href', 'mailto:' + addr + (subject ? '?subject=' + encodeURIComponent(subject) : ''));
+    }
+    el.textContent = addr;
+  }
+})();
+</script>
 </body>
 </html>
