@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Разведение червей — консультация Петра Михайловича Кутузова</title>
+<meta content="Консультация Петра Михайловича Кутузова: условия участка, расчёт старта и уход за вермифермой." name="description"/>
+<meta content="Как открыть своё дело на вермиферме" property="og:title"/>
+<meta content="Условия участка, расчёт старта и уход за вермифермой. Пётр Михайлович Кутузов." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="assets/hero.jpg" property="og:image"/>
+<link href="assets/mark.svg" rel="icon" type="image/svg+xml"/>
+<style>@font-face{font-family:Manrope;font-weight:400;font-style:normal;font-display:swap;src:url(assets/manrope-400.ttf) format('truetype')}@font-face{font-family:Manrope;font-weight:600;font-style:normal;font-display:swap;src:url(assets/manrope-600.ttf) format('truetype')}
+:root{--ink:#17251f;--paper:#f5f1e8;--card:#fcfbf7;--green:#173f32;--green-d:#173f32;--muted:#526159;--line:#d6d9d0;--maxw:1200px;--r:8px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px}body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.6 'Manrope',Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-wrap:break-word}h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:600;line-height:1.16;letter-spacing:-.035em;text-wrap:balance}h1{font-size:56px}h2{font-size:40px;max-width:26ch}h3{font-size:24px;letter-spacing:-.025em}a{color:inherit;text-underline-offset:4px}img{display:block;max-width:100%}::selection{background:#cbd9cc;color:var(--ink)}a:focus-visible{outline:2px solid currentColor;outline-offset:8px}.wrap{max-width:var(--maxw);padding:0 32px;margin:auto}.sec,.sec.tight{padding:96px 0;border-bottom:1px solid var(--line)}.lead{max-width:64ch;margin-top:24px;color:var(--muted)}header{background:var(--paper);border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;gap:32px;min-height:80px}.brand{display:flex;align-items:center;gap:16px;font-weight:650;font-size:18px}.brand i{display:grid;place-items:center;color:var(--green);width:32px;height:32px}.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.sp{flex:1}.lnk{text-decoration:none;font-size:16px;padding:16px 0}.contact-link{border-bottom:1px solid var(--green)}.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:var(--green);color:var(--card);border:0;border-radius:8px;padding:16px 24px;min-height:56px;font-size:16px;font-weight:600}.btn:hover{background:#245744}.hero{position:relative;background:var(--green);color:var(--paper)}.hero>.wrap{padding-top:88px;padding-bottom:88px;min-height:648px;display:flex;align-items:center}.hero-inner{max-width:720px}.hero h1{max-width:22ch}.hero h1 em{font-style:normal;color:inherit}.hero .sub{max-width:40ch;margin-top:32px;color:#e0e6d9}.hero .cta{display:flex;align-items:center;gap:32px;margin-top:40px}.hero .btn,.final .btn,.price .btn{background:var(--paper);color:var(--green)}.secondary-link{font-size:16px;color:#e0e6d9}.hero-bg{position:absolute;right:0;top:0;width:44%;height:100%;overflow:hidden;border-radius:0}.hero-bg picture{display:block;height:100%}.hero-bg img{width:100%;height:100%;object-fit:cover;filter:saturate(.72) sepia(.08)}.hero-bg:after{content:'';position:absolute;inset:0;background:rgba(23,63,50,.15)}.hero>.wrap{position:relative}.grid,.steps,.nums{display:grid;gap:24px;margin-top:40px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.steps,.nums{grid-template-columns:repeat(3,minmax(0,1fr))}.card,.step,.num{background:transparent;border:1px solid var(--line);border-radius:8px;padding:32px;box-shadow:none}.card h3,.step h3{margin-bottom:16px;min-height:56px}.card p,.step p,.card li{color:var(--muted);font-size:16px}.grid{align-items:stretch}.step .n{color:var(--green);font-size:16px;margin-bottom:24px}.step{min-height:256px}.g4 .card{padding:24px}.g4 h3{font-size:24px;min-height:88px}.wide{margin-top:48px}.shot,.wide,.portrait{overflow:hidden;border-radius:8px}.shot img,.wide img,.portrait img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;filter:saturate(.78) sepia(.08)}.portrait img{object-position:50% 22%}.split,.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.num b{display:block;color:var(--green);font-size:32px;font-weight:600;line-height:1.25;font-variant-numeric:tabular-nums;white-space:nowrap}.num span{display:block;margin-top:16px;font-size:16px;color:var(--muted)}ul.check{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px}li:before{display:none}.warn{display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:40px;padding-top:40px;border-top:1px solid var(--line)}.warn h3{margin-bottom:16px}.warn ul{list-style:none;padding:0;margin:0}.warn li{color:var(--muted);font-size:16px;margin-top:8px}.about{background:var(--card)}.price-wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;margin-top:40px}.price-wrap>.grid{margin:0}.price{background:var(--green);color:var(--paper);padding:40px;border-radius:8px}.price .tag{font-size:16px}.sum{font-size:56px;line-height:1.2;margin:16px 0 24px;letter-spacing:-.035em}.price p,.note{font-size:16px}.note{margin-top:24px}.price .btn{margin-top:32px}#offer>.wrap>.card,#econom .card{margin-top:24px}.final{background:var(--green);color:var(--paper);padding:64px;border-radius:8px}.final p{margin-top:24px}.contact-actions{display:flex;align-items:center;gap:32px;margin-top:32px}.mail{font-size:16px}footer{padding:48px 0;font-size:14px;color:var(--muted)}.frow{display:flex;align-items:center;justify-content:space-between;gap:24px}.legal{margin-top:32px;display:grid;gap:16px;max-width:88ch}.legal-links{display:flex;gap:24px}.legal p{font-size:14px;line-height:1.6}
+@media(max-width:1100px){.hero-bg{width:38%}.hero-inner{max-width:560px}.g4{grid-template-columns:repeat(2,1fr)}.g4 h3{min-height:56px}.price-wrap{grid-template-columns:1fr}.split,.about-grid{gap:32px}}
+@media(max-width:760px){.wrap{padding:0 24px}.nav{min-height:72px}.nav .lnk{display:none}.hero-bg{position:static;width:100%;height:auto;aspect-ratio:3/2;margin-top:40px}.hero>.wrap{display:block;min-height:0;padding-top:56px;padding-bottom:56px}.hero-inner{max-width:100%}h1{font-size:36px;line-height:1.16}h2{font-size:32px}h3{font-size:24px}.hero .sub{margin-top:32px;font-size:18px}.hero .cta{margin-top:32px;gap:24px;align-items:flex-start;flex-direction:column}.hero .btn{width:100%}.secondary-link{font-size:14px}.sec,.sec.tight{padding:64px 0}.g2,.g4,.steps,.nums,.split,.about-grid,.warn{grid-template-columns:1fr}.grid,.steps,.nums{gap:16px;margin-top:32px}.card,.step,.num{padding:24px}.card h3,.step h3,.g4 h3{min-height:0}.step{min-height:216px}.warn{gap:32px}.price-wrap>.grid{gap:16px}.price{padding:32px}.final{padding:32px 24px}.contact-actions{flex-direction:column;align-items:flex-start;gap:24px}.final .btn{width:100%}.frow{align-items:flex-start;flex-direction:column}.legal-links{flex-wrap:wrap}.brand{font-size:16px;gap:8px}.sum{font-size:48px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap nav">
+<div class="brand"><i><svg aria-hidden="true" class="i" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M5 18h14M7 14V9a5 5 0 0 1 10 0v5M9 14h6"></path></svg></i> Вермиферма</div>
+<span class="sp"></span>
+<a class="lnk" href="#econom">Расчёт</a>
+<a class="lnk" href="#how">Порядок работы</a>
+<a class="lnk" href="#author">Автор</a>
+<a class="lnk contact-link" href="https://t.me/Verifermer_bot?start=site">Написать</a>
+</div>
+</header>
+<!-- HERO -->
+<section class="hero">
+<div class="hero-bg">
+<picture>
+<source srcset="assets/hero.webp" type="image/webp"/>
+<img alt="" decoding="async" fetchpriority="high" height="1024" src="assets/hero.jpg" width="1536"/>
+</picture>
+</div>
+<div class="wrap">
+<div class="hero-inner">
+
+<h1>Разведение червей на своём участке: <em>помогу оценить условия и посчитать старт</em></h1>
+<p class="sub">Сначала разберём ваш участок и спрос — ящики покупать успеем.</p>
+<div class="cta">
+<a class="btn" href="https://t.me/Verifermer_bot?start=site">Написать в Telegram</a>
+<a class="secondary-link" href="#econom">Посмотреть цифры</a>
+</div>
+
+</div>
+</div>
+</section>
+<!-- WHAT -->
+<section class="sec" id="what">
+<div class="wrap">
+
+<h2>Что даёт вермиферма</h2>
+<p class="lead">Черви превращают органические остатки в биогумус.</p>
+<div class="grid g2">
+<div class="card">
+
+<h3>Черви живьём</h3>
+<p>Живой корм и наживка для рыбаков и птицеводов.</p>
+</div>
+<div class="card">
+
+<h3>Биогумус для растений</h3>
+<p>Органическое удобрение для дачников и тепличных хозяйств.</p>
+</div>
+</div>
+<div class="wide">
+<picture>
+<source srcset="assets/yard.webp" type="image/webp"/>
+<img alt="Хозяйство по разведению червей на деревенском участке" decoding="async" height="933" loading="lazy" src="assets/yard.jpg" width="1400"/>
+</picture>
+</div>
+</div>
+</section>
+<!-- PRODUCTS -->
+<section class="sec tight">
+<div class="wrap">
+<div class="split">
+<div class="txt">
+
+<h2>Продажи зависят от сезона</h2>
+<p class="lead">Биогумус чаще покупают весной и осенью. Червей — в тёплые месяцы.</p>
+
+</div>
+<div>
+<div class="shot">
+<picture>
+<source srcset="assets/hands.webp" type="image/webp"/>
+<img alt="Готовый биогумус в руках" decoding="async" height="1024" loading="lazy" src="assets/hands.jpg" width="1536"/>
+</picture>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ECONOMY -->
+<section class="sec" id="econom">
+<div class="wrap">
+
+<h2>Расходы и ориентиры</h2>
+<p class="lead">Примеры из практики, не прогноз дохода. Результат зависит от участка, спроса и ежедневной работы.</p>
+<div class="nums">
+<div class="num"><b>15–20 тыс. ₽</b><span>на старт</span></div>
+<div class="num"><b>3–4 мес.</b><span>до первых продаж</span></div>
+<div class="num"><b>8–12 мес.</b><span>до возврата затрат</span></div>
+<div class="num"><b>1–2 часа</b><span>ухода в день</span></div>
+<div class="num"><b>15–25 тыс. ₽</b><span>в месяц · малое хозяйство</span></div>
+<div class="num"><b>от 70 тыс. ₽</b><span>в месяц · больший объём</span></div>
+</div>
+<div class="card">
+<h3>Стартовый бюджет</h3>
+<ul class="check">
+<li>Ящики и оборудование — 8–10 тыс. ₽</li>
+<li>Черви-производители — 3–5 тыс. ₽</li>
+<li>Подстилка и корм — 2–3 тыс. ₽</li>
+</ul>
+
+</div>
+</div>
+</section>
+<!-- HOW -->
+<section class="sec" id="how">
+<div class="wrap">
+
+<h2>От участка к плану</h2>
+
+<div class="steps">
+<div class="step">
+<div class="n">1</div>
+<h3>Ваши условия</h3>
+<p>Укажите регион, участок или помещение и доступное время.</p>
+</div>
+<div class="step">
+<div class="n">2</div>
+<h3>Первый разбор</h3>
+<p>Бесплатно оценю, подходит ли вам это дело. Ответ — в течение трёх дней.</p>
+</div>
+<div class="step">
+<div class="n">3</div>
+<h3>Расчёт</h3>
+<p>Посчитаем расходы и возможный доход.</p>
+</div>
+<div class="step">
+<div class="n">4</div>
+<h3>План старта</h3>
+<p>Подготовлю порядок действий и контакты поставщиков.</p>
+</div>
+<div class="step">
+<div class="n">5</div>
+<h3>Поддержка</h3>
+<p>Три месяца разбираем уход, ошибки и поиск покупателей.</p>
+</div>
+<div class="step">
+<div class="n">6</div>
+<h3>Возврат оплаты</h3>
+<p>Если дело не подойдёт — возврат по условиям оферты.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- WHY -->
+<section class="sec">
+<div class="wrap">
+
+<h2>Особенности небольшого хозяйства</h2>
+<div class="grid g4">
+<div class="card">
+
+<h3>Небольшой масштаб</h3>
+<p>Можно начать с нескольких ящиков.</p>
+</div>
+<div class="card">
+
+<h3>Местный рынок</h3>
+<p>Покупателей ищем рядом с хозяйством.</p>
+</div>
+<div class="card">
+
+<h3>Рост поголовья</h3>
+<p>Черви размножаются при подходящих условиях.</p>
+</div>
+<div class="card">
+
+<h3>Без химии</h3>
+<p>Правильный уход помогает избежать запаха.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- RISKS -->
+<section class="sec" id="risks">
+<div class="wrap">
+
+<h2>Живому хозяйству нужен уход</h2>
+<p class="lead">Без внимания можно потерять поголовье и вложенные деньги.</p>
+<div class="warn">
+<div>
+<h3>Каждый день</h3>
+<ul>
+<li>Влажность и температура</li><li>Кормление и проверка вредителей</li>
+</ul>
+</div>
+<div>
+<h3>Зимовка</h3>
+<ul>
+<li>Заранее подготовить тёплое место</li><li>Не допускать промерзания</li>
+</ul>
+</div>
+<div>
+<h3>Ошибки</h3>
+<ul>
+<li>Избыток корма</li><li>Неподходящий грунт</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- AUTHOR -->
+<section class="sec about" id="author">
+<div class="wrap">
+<div class="about-grid">
+<div class="portrait">
+<picture>
+<source srcset="assets/portrait.webp" type="image/webp"/>
+<img alt="Пётр Михайлович Кутузов" decoding="async" height="1185" loading="lazy" src="assets/portrait.jpg" width="860"/>
+</picture>
+</div>
+<div>
+
+<h2>Пётр Михайлович Кутузов</h2>
+<p class="lead">Развожу червей 25 лет. Первый ящик поставил в 1998 году — теперь делюсь опытом своего хозяйства.</p>
+
+
+
+</div>
+</div>
+</div>
+</section>
+<!-- OFFER -->
+<section class="sec" id="offer">
+<div class="wrap">
+
+<h2>Консультация и поддержка</h2>
+<div class="price-wrap">
+<div class="grid g2">
+<div class="card">
+
+<h3>Под ваш участок</h3>
+<ul class="check">
+<li>Условия, расходы и план старта.</li>
+</ul>
+</div>
+<div class="card">
+
+<h3>В рабочем ритме</h3>
+<ul class="check">
+<li>Вопросы по уходу и продажам.</li>
+</ul>
+</div>
+</div>
+<div class="price">
+<div class="tag">Цена за всю работу</div>
+<div class="sum">8 000 ₽</div>
+<p>Консультация, материалы и три месяца поддержки.</p>
+<div class="note">
+
+<span>Не больше пяти человек в месяц.</span>
+</div>
+<a class="btn" href="https://t.me/Verifermer_bot?start=site">Рассказать о себе</a>
+</div>
+</div>
+<div class="card">
+
+<h3>Материалы для работы</h3>
+<ul class="check">
+<li>Расчёт в Excel и чек-листы ухода.</li><li>Контакты покупателей и советы по переговорам.</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- FOR WHOM -->
+<section class="sec tight">
+<div class="wrap">
+<div class="grid g2">
+<div class="card">
+<h3>Вам подойдёт, если</h3>
+<ul class="check">
+<li>Есть участок или помещение.</li><li>Готовы ухаживать каждый день и вести записи.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Лучше повременить, если</h3>
+<ul class="check cross">
+<li>Нет места или времени для хозяйства.</li><li>Нужна быстрая окупаемость.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- START -->
+<section class="sec" id="start">
+<div class="wrap">
+<div class="final">
+
+<h2>Начнём с вашего участка</h2>
+<p>Расскажите о своём участке в Telegram.</p>
+<div class="contact-actions">
+<a class="btn" href="https://t.me/Verifermer_bot?start=site">Написать в Telegram</a>
+<a class="mail" data-m="peter_k53|mail.ru" data-s="Вермиферма — запрос на консультацию" href="mailto:peter_k53@mail.ru">peter_k53@mail.ru</a>
+</div>
+
+</div>
+</div>
+</section>
+<footer>
+<div class="wrap">
+<div class="frow">
+<div class="brand"> Вермиферма · П. М. Кутузов</div>
+<div><a data-m="peter_k53|mail.ru" href="#"></a></div>
+</div>
+<div class="legal">
+<div class="legal-links">
+<a href="oferta.html">Публичная оферта</a>
+<a href="privacy.html">Как я обращаюсь с вашими данными</a>
+</div>
+<p>Услуги оказываются на условиях публичной оферты. Информация о ценах и составе услуг
+      носит справочный характер и не является публичной офертой в смысле статьи 437
+      Гражданского кодекса РФ.</p>
+<p>Приведённые суммы дохода — примеры из личной практики, а не гарантия результата.
+      Результат зависит от условий, в которых вы работаете, и от ваших усилий.
+      Сайт не даёт инвестиционных, юридических и налоговых консультаций.</p>
+<p><b>Сайт о вас ничего не собирает.</b> Здесь нет форм, счётчиков посещаемости
+      и файлов cookie. То, что вы мне напишете, используется только для ответа на ваше
+      обращение и не передаётся никому.</p>
+<p>Исполнитель: Кутузов Пётр Михайлович, плательщик налога на профессиональный доход
+      (самозанятый). ИНН указывается в чеке, который формируется при расчёте.
+      Связь: <a data-m="peter_k53|mail.ru" href="#"></a></p>
+<p>© 2026 Кутузов П. М. Все права защищены.</p>
+</div>
+</div>
+</footer>
+
+<script>
+/* Адрес собирается в браузере, поэтому в исходном коде страницы его нет
+   и сборщикам спама взять его неоткуда. */
+(function () {
+  var dog = String.fromCharCode(64);
+  var nodes = document.querySelectorAll('[data-m]');
+  for (var i = 0; i < nodes.length; i++) {
+    var el = nodes[i];
+    var parts = el.getAttribute('data-m').split('|');
+    var addr = parts[0] + dog + parts[1];
+    var subject = el.getAttribute('data-s');
+    if (el.tagName === 'A') {
+      el.setAttribute('href', 'mailto:' + addr + (subject ? '?subject=' + encodeURIComponent(subject) : ''));
+    }
+    el.textContent = addr;
+  }
+})();
+</script>
+<!-- Статистика посещений: без cookie, без персональных данных. Отправляем только страницу и метку рекламы. -->
+<script>
+(function () {
+  try {
+    var src = new URLSearchParams(location.search).get('utm_source') || '';
+    var q = '?p=' + encodeURIComponent(location.pathname) + '&u=' + encodeURIComponent(src.slice(0, 40));
+    var img = new Image(1, 1);
+    img.referrerPolicy = 'unsafe-url';
+    img.src = 'https://vermifarm-hits.pages.dev/hit' + q + '&t=' + Date.now();
+  } catch (e) { /* счётчик не должен влиять на страницу */ }
+})();
+</script>
+</body>
+</html>
