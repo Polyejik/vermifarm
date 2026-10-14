@@ -743,5 +743,17 @@
 })();
 </script>
 <script data-wa-message="Здравствуйте, Пётр Михайлович! Хочу обсудить разведение червей. Мой регион: … Участок или помещение: … Времени на уход в день: … Хочу начать с: …" src="contact-config.js"></script>
+<!-- Статистика посещений: без cookie, без персональных данных. Отправляем только страницу и метку рекламы. -->
+<script>
+(function () {
+  try {
+    var src = new URLSearchParams(location.search).get('utm_source') || '';
+    var q = '?p=' + encodeURIComponent(location.pathname) + '&u=' + encodeURIComponent(src.slice(0, 40));
+    var img = new Image(1, 1);
+    img.referrerPolicy = 'unsafe-url';
+    img.src = 'https://vermifarm-hits.pages.dev/hit' + q + '&t=' + Date.now();
+  } catch (e) { /* счётчик не должен влиять на страницу */ }
+})();
+</script>
 </body>
 </html>
