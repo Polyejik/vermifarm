@@ -258,6 +258,40 @@
     .sticky-cta .btn.ghost{display:none}
   }
 
+  /* Visual pass: readable headings, calmer surfaces, reachable contact actions. */
+  h1,h2,h3{text-wrap:balance}
+  h2{max-width:30ch}
+  .final h2{margin-inline:auto}
+  .btn{border-radius:14px;background:var(--green);box-shadow:none}
+  a:focus-visible{outline:3px solid #A55A16;outline-offset:5px}
+  .hero a:focus-visible,.final a:focus-visible{outline-color:#D8F0B2}
+  .card,.step,.num{background:var(--card);box-shadow:none;border-radius:var(--r)}
+  .card::after,.num::before{display:none}
+  .photo-note{opacity:1;font-size:16px}
+  .contact-actions{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:20px 28px;margin-top:28px}
+  .contact-actions .mail{margin-top:0}
+  .final .btn{background:#fff;color:var(--green-d)}
+  .contact-status,.final .contact-status{font-size:16px;line-height:1.5;margin-top:16px;max-width:60ch}
+  [hidden]{display:none !important}
+  @media(max-width:560px){
+    .sec,.sec.tight{padding:56px 0}
+    .hero .wrap{padding-top:32px;padding-bottom:40px}
+    .hero h1{font-size:30px;line-height:1.16}
+    .hero .badge{font-size:15px;padding:8px 12px;margin-bottom:20px;box-shadow:none;background:transparent}
+    .hero .sub{font-size:18px;line-height:1.55;margin-top:18px}
+    .hero .cta{margin-top:24px;gap:12px}
+    .hero .cta .btn{width:100%;padding:16px 18px}
+    .hero-facts{gap:20px 28px;margin-top:24px;padding-top:24px}
+    .card,.step,.num,.warn{padding:24px}
+    .step p,.warn li,.num span{font-size:18px}
+    .final{padding:28px 22px;text-align:left}
+    .final .eyebrow{justify-content:flex-start}
+    .final p{font-size:18px;line-height:1.6}
+    .contact-actions{align-items:flex-start;justify-content:flex-start}
+    .contact-actions .btn{width:100%;padding-inline:16px}
+    .mail{overflow-wrap:anywhere}
+  }
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
   /* печать */
   @media print{
     :root{--paper:#fff; --card:#fff; --muted:#2A2A2A}
@@ -303,9 +337,10 @@
       <h1>Деньги лежат под ногами: <em>достаточно наклониться и поднять</em></h1>
       <p class="sub">Четверть века развожу червей на обычном участке. Помогу разобраться, как начать с пятнадцати тысяч. В моей практике первые продажи были через 3–4 месяца. Если вам это дело не подходит, честно объясню почему.</p>
       <div class="cta">
-        <a class="btn" href="#start">Рассказать о своём участке</a>
+        <a class="btn" href="https://wa.me/" data-wa>Написать в WhatsApp</a>
         <a class="btn ghost" href="#econom">Посмотреть цифры</a>
       </div>
+      <p class="contact-status" data-wa-placeholder>Номер WhatsApp пока не указан: получателя нужно выбрать самостоятельно. Можно написать на <a href="mailto:peter_k53@mail.ru">почту</a>.</p>
       <div class="hero-facts">
         <div><b>15–20 тыс. ₽</b><span>расходы на старт</span></div>
         <div><b>1–2 часа</b><span>занятий в день</span></div>
@@ -642,7 +677,11 @@
       <span class="eyebrow">Начало дела</span>
       <h2>Расскажите мне о своём хозяйстве</h2>
       <p>Напишите, где вы живёте и какой есть участок или помещение. Сколько времени можете выделить, на что рассчитываете? Отвечу в течение трёх дней. Если дело вам не подходит, честно объясню почему. За этот первый разбор платить не нужно.</p>
-      <a class="mail" href="#" data-m="peter_k53|mail.ru" data-s="Вермиферма — запрос на консультацию"></a>
+      <div class="contact-actions">
+        <a class="btn" href="https://wa.me/" data-wa>Написать в WhatsApp</a>
+        <a class="mail" href="mailto:peter_k53@mail.ru" data-m="peter_k53|mail.ru" data-s="Вермиферма — запрос на консультацию">peter_k53@mail.ru</a>
+      </div>
+      <p class="contact-status" data-wa-placeholder>Номер WhatsApp пока не указан: получателя нужно выбрать самостоятельно. Можно написать на почту.</p>
       <div class="hintmargin">Ответ в течение 3 дней · не больше 5 человек в месяц</div>
     </div>
   </div>
@@ -703,5 +742,6 @@
   }
 })();
 </script>
+<script data-wa-message="Здравствуйте, Пётр Михайлович! Хочу обсудить разведение червей. Мой регион: … Участок или помещение: … Времени на уход в день: … Хочу начать с: …" src="contact-config.js"></script>
 </body>
 </html>
