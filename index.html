@@ -68,8 +68,7 @@
 .calc .calc-field input { box-sizing: border-box; width: 100%; min-width: 0; min-height: 56px; border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; background: transparent; color: var(--ink); font: inherit; font-size: 20px; }
 .calc .calc-field input:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
 .calc .calc-field input[aria-invalid="true"] { border-color: #8a3a2a; }
-.calc .calc-field small, .calc .calc-privacy { color: var(--muted); font-size: 13px; line-height: 1.6; }
-.calc .calc-privacy { margin: 0; }
+.calc .calc-field small { color: var(--muted); font-size: 13px; line-height: 1.6; }
 .calc .calc-results { min-width: 0; padding: 40px; background: var(--green); color: var(--paper); display: flex; flex-direction: column; }
 .calc .calc-totals { margin: 0; }
 .calc .calc-row { padding-bottom: 24px; margin-bottom: 24px; border-bottom: 1px solid #607b6e; }
@@ -218,7 +217,7 @@
 <div class="num"><b>15–25 тыс. ₽</b><span>в месяц · малое хозяйство</span></div>
 <div class="num"><b>от 70 тыс. ₽</b><span>в месяц · больший объём</span></div>
 </div>
-<p class="note" style="max-width:64ch">Помните, что для большой животноводческой фермы эти расчёты не годятся. Там другие объёмы, нужна техника, а вывоз навоза стоит других денег. Большие хозяйства мы с вами считаем отдельно.</p>
+<p class="note" style="max-width:64ch">Для большой фермы эти цифры не годятся: другие объёмы, техника, вывоз. Хозяйства считаем отдельно.</p>
 <div class="card">
 <h3>Стартовый бюджет</h3>
 <ul class="check">
@@ -256,8 +255,7 @@
           <input id="calc-other" type="number" inputmode="decimal" step="1" min="0" value="2000" aria-describedby="calc-other-help">
           <small id="calc-other-help">Бензин на доставку, объявления и всякая мелочь.</small>
         </div>
-        <p class="calc-privacy">Все цифры остаются только у вас на экране, ко мне они не уходят.</p>
-      </div>
+              </div>
       <div class="calc-results" aria-live="polite" aria-atomic="true">
         <dl class="calc-totals">
           <div class="calc-row"><dt>Выручка за месяц</dt><dd id="calc-revenue">—</dd></div>
@@ -266,7 +264,7 @@
           <div class="calc-season"><dt>Прибыль за сезон, 6 месяцев</dt><dd id="calc-season">—</dd></div>
         </dl>
         <p class="calc-status" id="calc-status"></p>
-        <p class="calc-note">Это только прикидка. Налоги, гибель червя и зимний простой здесь не заложены</p>
+        <p class="calc-note">Без налогов, потерь и зимнего простоя</p>
       </div>
     </div>
   </div>
@@ -386,7 +384,7 @@
 <div class="fb-text">
 <p class="eyebrow">О чём стоит договориться сразу</p>
 <p class="fb-lead">Весь поток навоза с крупной фермы через ящики не прогнать. Обещать верную прибыль я не стану. Документы за ваше хозяйство тоже не подпишу. Если переработка вам не подходит, так прямо и скажу, чтобы вы не тратили силы.</p>
-<p class="fb-note">Пояснительную записку для ферм вышлю по запросу. Там расписано, как мы будем разбирать вашу ситуацию, но готовых доказательств, что дело окупится именно у вас, в ней нет.</p>
+<p class="fb-note">Пояснительную записку для ферм вышлю по запросу.</p>
 </div>
 <div class="fb-cta">
 <a class="btn" href="https://t.me/Verifermer_bot?start=site">Разобраться, подходит ли вам это</a>
