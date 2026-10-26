@@ -26,6 +26,38 @@
 @media(max-width:1100px){.hero-bg{width:38%}.hero-inner{max-width:560px}.g4{grid-template-columns:repeat(2,1fr)}.g4 h3{min-height:56px}.price-wrap{grid-template-columns:1fr}.split,.about-grid{gap:32px}}
 @media(max-width:760px){.wrap{padding:0 24px}.nav{min-height:72px}.nav .lnk{display:none}.hero-bg{position:static;width:100%;height:auto;aspect-ratio:3/2;margin-top:40px}.hero>.wrap{display:block;min-height:0;padding-top:56px;padding-bottom:56px}.hero-inner{max-width:100%}h1{font-size:36px;line-height:1.16}h2{font-size:32px}h3{font-size:24px}.hero .sub{margin-top:32px;font-size:18px}.hero .cta{margin-top:32px;gap:24px;align-items:flex-start;flex-direction:column}.hero .btn{width:100%}.secondary-link{font-size:14px}.sec,.sec.tight{padding:64px 0}.g2,.g4,.steps,.nums,.split,.about-grid,.warn{grid-template-columns:1fr}.grid,.steps,.nums{gap:16px;margin-top:32px}.card,.step,.num{padding:24px}.card h3,.step h3,.g4 h3{min-height:0}.step{min-height:216px}.warn{gap:32px}.price-wrap>.grid{gap:16px}.price{padding:32px}.final{padding:32px 24px}.contact-actions{flex-direction:column;align-items:flex-start;gap:24px}.final .btn{width:100%}.frow{align-items:flex-start;flex-direction:column}.legal-links{flex-wrap:wrap}.brand{font-size:16px;gap:8px}.sum{font-size:48px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.lnk,.secondary-link,.mail,.legal-links a{transition:none}}
+
+/* FARMS — блок для животноводческих хозяйств */
+.eyebrow{display:flex;align-items:center;gap:14px;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.eyebrow:before{content:'';width:32px;height:1px;background:currentColor;opacity:.5}
+.farms{background:linear-gradient(180deg,#efeade 0%,var(--paper) 72%)}
+.farms>div>h2{margin-top:24px}
+.farms-list{list-style:none;padding:0;margin:56px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:64px}
+.farms-list li{display:grid;grid-template-columns:56px 1fr;padding:28px 0;border-top:1px solid var(--line);align-items:start}
+.farms-list .fn{font-size:14px;font-weight:600;letter-spacing:.06em;color:var(--green);font-variant-numeric:tabular-nums;padding-top:5px}
+.farms-list h3{font-size:22px;margin:0 0 12px;min-height:0}
+.farms-list p{color:var(--muted);font-size:16px;max-width:46ch}
+.farms-board{display:grid;grid-template-columns:1.05fr .95fr;margin-top:56px;background:var(--green);color:var(--paper);border-radius:8px;overflow:hidden}
+.fb-text{display:flex;flex-direction:column;padding:48px}
+.fb-cta{padding:48px;background:rgba(255,255,255,.055);border-left:1px solid rgba(245,241,232,.16)}
+.fb-text .eyebrow{color:#b9c9b3}
+.fb-lead{margin-top:22px;margin-bottom:32px;font-size:20px;line-height:1.5;max-width:34ch}
+.fb-note{margin-top:auto;padding-top:20px;border-top:1px solid rgba(245,241,232,.16);font-size:15px;line-height:1.55;color:#c3cfc0;max-width:42ch}
+.fb-cta .btn{width:100%;background:var(--paper);color:var(--green)}
+.fb-cta .btn:hover{background:#fffdf7}
+.fb-alt{margin-top:20px;font-size:15px;color:#c3cfc0}
+.fb-alt .mail{color:var(--paper);text-decoration-color:rgba(245,241,232,.45)}
+.fb-alt .mail:hover{text-decoration-color:var(--paper)}
+.fb-label{margin-top:36px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#a9b8a5}
+.fb-list{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:8px}
+.fb-list li{position:relative;padding-left:18px;font-size:15px;color:#dfe6d8}
+.fb-list li:before{content:'';position:absolute;left:0;top:.72em;width:7px;height:1px;background:#a9b8a5}
+.fb-fine{margin-top:22px;font-size:14px;color:#a9b8a5}
+.hero-farms{display:inline-block;margin-top:32px;font-size:15px;line-height:1.5;color:#cfd9c8;text-decoration:underline;text-decoration-color:rgba(207,217,200,.42);text-underline-offset:6px;transition:color .18s ease,text-decoration-color .18s ease}
+.hero-farms:hover,.hero-farms:focus-visible{color:var(--paper);text-decoration-color:var(--paper)}
+
+@media(max-width:1100px){.farms-list{grid-template-columns:1fr;column-gap:0}.farms-board{grid-template-columns:1fr}.fb-cta{border-left:0;border-top:1px solid rgba(245,241,232,.16);background:rgba(255,255,255,.04)}}
+@media(max-width:760px){.farms-list{margin-top:36px}.farms-list li{grid-template-columns:40px 1fr;padding:24px 0}.farms-list h3{font-size:20px}.fb-text,.fb-cta{padding:32px 24px}.fb-lead{font-size:18px}.farms-board{margin-top:36px}.hero-farms{margin-top:28px;font-size:14px}}
 </style>
 </head>
 <body>
@@ -35,6 +67,7 @@
 <span class="sp"></span>
 <a class="lnk" href="#econom">Расчёт</a>
 <a class="lnk" href="#how">Порядок работы</a>
+<a class="lnk" href="#farms">Хозяйствам</a>
 <a class="lnk" href="#author">Автор</a>
 <a class="lnk contact-link" href="https://t.me/Verifermer_bot?start=site">Написать</a>
 </nav>
@@ -56,15 +89,50 @@
 <a class="btn" href="https://t.me/Verifermer_bot?start=site">Написать мне в Telegram</a>
 <a class="secondary-link" href="#econom">Посмотреть цифры</a>
 </div>
+<a class="hero-farms" href="#farms">Животноводческое хозяйство? Разбор задачи с навозом →</a>
 
+</div>
+</div>
+</section>
+<!-- FARMS -->
+<section class="sec farms" id="farms">
+<div class="wrap">
+<p class="eyebrow">Для животноводческих хозяйств</p>
+<h2>Купить червей — ещё не решить проблему навоза</h2>
+<p class="lead">Если начать с оборудования, можно получить ещё один участок работы, а расходы на вывоз оставить прежними. Сначала стоит проверить, какую задачу переработка действительно снимет с вашего хозяйства.</p>
+<ol class="farms-list">
+<li><span class="fn">01</span><div><h3>Расходы до запуска</h3><p>Разберём, сколько навоза образуется и куда уходит сейчас. Посмотрим стоимость вывоза: без неё нельзя оценить, есть ли смысл менять схему.</p></div></li>
+<li><span class="fn">02</span><div><h3>Деньги после запуска</h3><p>Посчитаем модель в Excel. Доход от продажи биогумуса не равен прибыли: труд и доставка оплачиваются независимо от того, нашли ли вы покупателя.</p></div></li>
+<li><span class="fn">03</span><div><h3>Проверка вместо большого запуска</h3><p>В записке для хозяйств предложен пилот на 100–200 тоннах. Это сценарий для обсуждения, а не обещание переработать такой объём на любой площадке. Сначала нужны данные вашей фермы.</p></div></li>
+<li><span class="fn">04</span><div><h3>Ответственность</h3><p>Вопросы по документам выделим отдельно для профильного специалиста. Разведение червей не заменяет обязанности хозяйства по обращению с навозом.</p></div></li>
+</ol>
+<div class="farms-board">
+<div class="fb-text">
+<p class="eyebrow">Граница разговора</p>
+<p class="fb-lead">Весь поток крупной фермы ящиками не закрыть. Гарантии прибыли не будет. Отчётность за хозяйство не подписываем. Если переработка вам не подходит, скажем об этом.</p>
+<p class="fb-note">Пояснительная записка для хозяйств — по запросу. Она описывает подход к разбору, но не доказывает окупаемость на вашей площадке.</p>
+</div>
+<div class="fb-cta">
+<a class="btn" href="https://t.me/Verifermer_bot?start=site">Проверить, подходит ли переработка</a>
+<p class="fb-alt">или письмом на <a class="mail" data-m="peter_k53|mail.ru" data-s="Хозяйство — разбор навоза" href="mailto:peter_k53@mail.ru">peter_k53@mail.ru</a></p>
+<p class="fb-label">Что указать в первом сообщении</p>
+<ul class="fb-list">
+<li>регион и поголовье</li>
+<li>тип и объём навоза</li>
+<li>что делаете с ним сейчас</li>
+<li>сколько стоит вывоз</li>
+<li>были ли предписания</li>
+</ul>
+<p class="fb-fine">Объём платной работы и оплату согласуем заранее.</p>
+</div>
 </div>
 </div>
 </section>
 <!-- WHAT -->
 <section class="sec" id="what">
 <div class="wrap">
-
-<h2>Что даёт небольшое хозяйство с червями</h2>
+<p class="eyebrow">Небольшое хозяйство на своём участке</p>
+<h2 style="margin-top:20px">Что даёт небольшое хозяйство с червями</h2>
 <p class="lead">Хозяйство даёт два товара: живой червь и биогумус. Черви съедают то, что мы обычно выбрасываем, и превращают это в удобрение. Ящик, где они живут, называют вермикомпостером. Это и есть небольшое хозяйство, о котором дальше речь.</p>
 <div class="grid g2">
 <div class="card">
@@ -113,7 +181,7 @@
 <section class="sec" id="econom">
 <div class="wrap">
 
-<h2>Расходы и цифры из практики</h2>
+<h2>Расходы и цифры из практики небольшого хозяйства</h2>
 <p class="lead">Здесь я собрал цифры из собственной практики, чтобы вам было от чего оттолкнуться. Что получится на деле, зависит от самого участка, спроса вокруг и того, готовы ли вы заглядывать к червям каждый день.</p>
 <div class="nums">
 <div class="num"><b>15–20 тыс. ₽</b><span>на старт</span></div>
@@ -123,6 +191,7 @@
 <div class="num"><b>15–25 тыс. ₽</b><span>в месяц · малое хозяйство</span></div>
 <div class="num"><b>от 70 тыс. ₽</b><span>в месяц · больший объём</span></div>
 </div>
+<p class="note" style="max-width:64ch">Эти цифры не описывают переработку навоза животноводческой фермы: там другой объём, другие расходы на технику и вывоз. Для хозяйства считаем отдельно — в разборе выше.</p>
 <div class="card">
 <h3>Стартовый бюджет</h3>
 <ul class="check">
